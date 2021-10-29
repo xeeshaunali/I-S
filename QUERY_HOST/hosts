@@ -1,0 +1,6 @@
+#
+127.0.0.1 localhost
+::1 localhost
+
+192.168.16.3 identity.pk
+10.10.10.20 ndwveri.nadra.gov.pk
