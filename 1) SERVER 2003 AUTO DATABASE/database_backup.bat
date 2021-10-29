@@ -1,0 +1,2 @@
+expdp cfmis/cfmis directory=dbdir schemas=cfmis dumpfile=cfmis%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%.dmp logfile=cfmis%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%.log 
+expdp cfmisis/cfmisis directory=dbdir schemas=cfmisis dumpfile=cfmisis%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%.dmp logfile=cfmisis%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%.log 
