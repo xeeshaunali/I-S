@@ -1,0 +1,7 @@
+create table space cfms
+
+SQL>CREATE ROLE AR_INCHARGE_IS IDENTIFIED BY GLOBALLY;
+SQL>CREATE ROLE IS_STAFF IDENTIFIED BY GLOBALLY;
+SQL> grant select on cfmis_ihc.casegroup to cfmisis;
+SQL> grant select on cfmis_ihc.casename to cfmisis;
+SQL> grant select on sys.dba_role_privs to cfmisis;

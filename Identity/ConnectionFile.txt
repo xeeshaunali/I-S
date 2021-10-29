@@ -1,0 +1,1 @@
+jdbc:oracle:thin:@(description=(address=(host=192.168.16.13)(protocol=tcp)(port=1521))(connect_data=(SERVICE_NAME=SHCDB1)))

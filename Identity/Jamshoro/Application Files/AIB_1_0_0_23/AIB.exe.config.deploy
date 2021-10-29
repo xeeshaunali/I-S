@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="AIB.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+    <add key="tns" value="(description=(address=(host=192.168.16.1)(protocol=tcp)(port=1521))(connect_data=(SID=shcdb1)))"/>
+    <add key="server" value="192.168.16.1"/>
+    <add key="port" value="1521"/>
+    <add key="service" value="shcdb1"/>
+    <add key="instanceName" value="shcdb1"/>
+    <add key="UserAPI" value="sindhbio_jmsrkt"/>
+    <add key="PassAPI" value="kuhg$#23w"/>
+    <add key="MAC" value="EC-A8-6B-96-9D-2C"/>
+    <add key="ImagesPath" value="c:\\"/>
+    <add key="ClientSettingsProvider.ServiceUri" value=""/>
+  </appSettings>
+  <applicationSettings>
+    <AIB.Properties.Settings>
+      <setting name="AIB_WebReference_CourtService" serializeAs="String">
+        <value>http://10.10.10.79:8920/SindhHighCourtService/CourtService.asmx</value>
+      </setting>
+    </AIB.Properties.Settings>
+  </applicationSettings>
+</configuration>
